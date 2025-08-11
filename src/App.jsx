@@ -18,13 +18,15 @@
 
 // export default App;
 import React from 'react'
+import HeaderTop from './components/HeaderTop'
+import Header from './pages/Header'
+import Footer from './pages/Footer'
 
 const App = () => {
   return (
     <div>
-    <h1 className="test-style">Test Heading</h1>
-
-
+   <Header/>
+<Footer/>
     </div>
   )
 }
