@@ -1,11 +1,11 @@
-import React from 'react'
+import BlogCard from './BlogCard';
 
-const Latest = () => {
-  return (
-    <div>
-      
+const LatestPlaces = ({ blogs }) => (
+  <section>
+    <h2>Explore Latest Places</h2>
+    <div className="grid">
+      {blogs.map(blog => <BlogCard key={blog.id} blog={blog} />)}
     </div>
-  )
-}
-
-export default Latest
+    <button>View All</button>
+  </section>
+);

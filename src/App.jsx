@@ -18,14 +18,19 @@
 
 // export default App;
 import React from 'react'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import HeaderTop from './components/HeaderTop'
 import Header from './pages/Header'
 import Footer from './pages/Footer'
+import Main from './pages/Body'
 
 const App = () => {
   return (
     <div>
    <Header/>
+   <Main/>
 <Footer/>
     </div>
   )

@@ -3,15 +3,15 @@ import { FaRegHeart, FaStore } from 'react-icons/fa';
 
 const HeaderMid = () => {
   return (
-    <div className="bg-white text-blue py-8">
-      <div className="container mx-auto px-6 flex items-center justify-between">
-        {/* Logo */}
-        <div className="text-2xl font-bold tracking-wide h-12">
-          <a href="/">LOGO</a>
+    <div className="bg-white text-blue py-8 gap-2">
+      <div className="container mx-auto px-6 flex items-center justify-between gap-2">
+     
+        <div className="text-2xl font-bold tracking-wide h-12 m-3  justifycontent-center  items-center">
+          <a href="/">TravelBlog</a>
         </div>
 
         {/* Search Bar */}
-        <div className="flex-1 mx-10">
+        <div className=" mx-10">
           <input
             type="text"
             placeholder="Search here..."
